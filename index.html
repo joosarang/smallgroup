@@ -6,35 +6,31 @@
     
     <!-- SNS 공유용 (Open Graph) 메타 태그 -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="주사랑교회 소그룹나눔지 | 친밀함의 지성소로 향하는 사랑의 초대">
-    <meta property="og:description" content="🌹 아가서를 통해 만나는 하나님의 열정적인 사랑과 친밀함의 안식">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1494972308805-463bc619d34e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:title" content="주사랑교회 소그룹나눔지 | 영적인 잠에서 깨어나 주님을 찾으라">
+    <meta property="og:description" content="아가서를 통해 만나는 주님의 완벽한 보호하심과 솔로몬의 가마">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1499988921418-b7df40ff03f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
     
-    <title>친밀함의 지성소로 향하는 사랑의 초대 - 주사랑교회 소그룹나눔지</title>
+    <title>영적인 잠에서 깨어나 주님을 찾으라 - 주사랑교회 소그룹나눔지</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
     
     <style>
         body {
             font-family: 'Noto Sans KR', sans-serif;
-            background-color: #fff1f2; /* 연한 로즈 배경 */
+            background-color: #f8fafc; /* 연한 블루그레이 배경 (보호, 평안의 느낌) */
             color: #334155;
             scroll-behavior: smooth;
             overflow-x: hidden;
         }
         
-        /* 포인트 폰트 (명조체) */
-        .font-serif-kr {
-            font-family: 'Nanum Myeongjo', serif;
-        }
-
+        .font-serif-kr { font-family: 'Nanum Myeongjo', serif; }
+     
         .bg-pattern {
-            background-color: #fff1f2;
-            background-image: radial-gradient(#fda4af 1.5px, transparent 1.5px);
+            background-color: #f8fafc;
+            background-image: radial-gradient(#cbd5e1 1.5px, transparent 1.5px);
             background-size: 30px 30px;
         }
         
-        /* 스크롤 등장 애니메이션 */
         .reveal {
             opacity: 0;
             transform: translateY(30px);
@@ -44,26 +40,22 @@
             opacity: 1;
             transform: translateY(0);
         }
-
-        /* 한국어 줄바꿈 방지 */
+     
         .break-keep { word-break: keep-all; }
         
-        /* 아코디언 애니메이션 */
         details summary::-webkit-details-marker { display: none; }
         details > summary { list-style: none; }
-        details[open] summary ~ * {
-            animation: sweep .5s ease-in-out;
-        }
+        details[open] summary ~ * { animation: sweep .5s ease-in-out; }
         @keyframes sweep {
             0%    {opacity: 0; transform: translateY(-10px)}
             100%  {opacity: 1; transform: translateY(0)}
         }
         
-        /* 인용구 박스 디자인 (아가서 테마) */
+        /* 인용구 박스 (블루 테마로 변경) */
         .quote-box {
             position: relative;
             background: #ffffff;
-            border-left: 6px solid #be123c; /* Rose-700 */
+            border-left: 6px solid #1d4ed8; /* Blue-700 */
             padding: 1.5rem 1.25rem 1.5rem 2.5rem;
             margin: 1.5rem 0;
             box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.05), 0 8px 10px -6px rgb(0 0 0 / 0.01);
@@ -82,7 +74,7 @@
             top: 5px;
             left: 10px;
             font-size: 4rem;
-            color: #ffe4e6; /* Rose-100 */
+            color: #dbeafe; /* Blue-100 */
             font-family: serif;
             z-index: 0;
             line-height: 1;
@@ -96,10 +88,10 @@
             }
         }
         
-        /* 섹션 배지 */
+        /* 섹션 배지 (블루 그라데이션) */
         .section-badge {
             display: inline-block;
-            background: linear-gradient(135deg, #9f1239, #be123c);
+            background: linear-gradient(135deg, #1e3a8a, #2563eb);
             color: #ffffff;
             padding: 0.4rem 1rem;
             border-radius: 9999px;
@@ -107,7 +99,7 @@
             font-weight: 800;
             letter-spacing: -0.025em;
             margin-bottom: 1rem;
-            box-shadow: 0 4px 6px -1px rgba(190, 18, 60, 0.3);
+            box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.3);
         }
         @media (min-width: 640px) {
             .section-badge {
@@ -117,128 +109,127 @@
         }
     </style>
 </head>
-<body class="antialiased selection:bg-rose-200 selection:text-rose-900">
-
-    <header class="bg-gradient-to-br from-indigo-950 via-rose-900 to-rose-700 text-white py-20 md:py-28 px-4 sm:px-6 relative overflow-hidden flex flex-col items-center justify-center text-center shadow-2xl">
-        <!-- 배경 패턴 (꽃잎 느낌의 부드러운 오버레이) -->
-        <div class="absolute inset-0 opacity-20 mix-blend-overlay bg-[url('https://images.unsplash.com/photo-1550005809-91ad75fb315f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')] bg-cover bg-center"></div>
-        <div class="absolute inset-0 bg-gradient-to-t from-rose-950/80 to-transparent"></div>
+<body class="antialiased selection:bg-blue-200 selection:text-blue-900">
+     
+    <header class="bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-800 text-white py-20 md:py-28 px-4 sm:px-6 relative overflow-hidden flex flex-col items-center justify-center text-center shadow-2xl">
+        <div class="absolute inset-0 opacity-30 mix-blend-overlay bg-[url('https://images.unsplash.com/photo-1499988921418-b7df40ff03f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')] bg-cover bg-center"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent"></div>
         
         <div class="relative z-10 max-w-4xl mx-auto reveal active mt-4 md:mt-0">
-            <span class="inline-block py-1.5 px-4 sm:px-5 rounded-full bg-white/10 text-rose-50 text-xs sm:text-sm font-bold tracking-widest mb-6 sm:mb-8 backdrop-blur-md border border-rose-200/20 shadow-inner break-keep">
-                아가서 1:2, 1:5 | 요한복음 15장
+            <span class="inline-block py-1.5 px-4 sm:px-5 rounded-full bg-white/10 text-blue-50 text-xs sm:text-sm font-bold tracking-widest mb-6 sm:mb-8 backdrop-blur-md border border-blue-200/20 shadow-inner break-keep">
+                아가서 3:1-8 | 누가복음 22:62
             </span>
             <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-black leading-tight mb-6 sm:mb-8 break-keep drop-shadow-2xl font-serif-kr">
-                친밀함의 지성소로 향하는 <br class="md:hidden"/> <span class="text-rose-300 italic">사랑의 초대</span>
+                영적인 잠에서 깨어나 <br class="md:hidden"/> <span class="text-blue-300 italic">주님을 찾으라</span>
             </h1>
-            <p class="text-base sm:text-lg md:text-xl text-rose-100 font-light max-w-2xl mx-auto break-keep leading-relaxed opacity-95 text-shadow px-2">
-                우리의 신앙은 단순한 의무가 아니라, 생명을 건 연합입니다.<br class="hidden sm:block">
-                가장 깊고 열정적인 사랑으로 당신을 부르시는 주님의 음성을 들어보세요.
+            <p class="text-base sm:text-lg md:text-xl text-blue-100 font-light max-w-2xl mx-auto break-keep leading-relaxed opacity-95 text-shadow px-2">
+                포기하고 싶은 밤, 무감각해진 침상에서 일어나 주님을 찾을 때,<br class="hidden sm:block">
+                비로소 당신을 둘러싼 완벽한 보호의 '가마'를 보게 됩니다.
             </p>
         </div>
         
-        <!-- 하단 장식 곡선 -->
         <div class="absolute bottom-0 left-0 right-0 w-full overflow-hidden leading-none z-0">
             <svg class="relative block w-full h-[40px] sm:h-[60px] md:h-[80px]" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C59.71,118.08,130.83,121.32,201.5,114.5,241.6,110.63,281.36,99.98,321.39,56.44Z" fill="#fff1f2"></path>
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C59.71,118.08,130.83,121.32,201.5,114.5,241.6,110.63,281.36,99.98,321.39,56.44Z" fill="#f8fafc"></path>
             </svg>
         </div>
     </header>
-
+     
     <section class="px-4 sm:px-6 max-w-4xl mx-auto -mt-6 sm:-mt-8 relative z-20 mb-16 sm:mb-20 reveal">
-        <details class="group bg-white rounded-2xl sm:rounded-3xl shadow-xl shadow-rose-900/10 border border-rose-50 overflow-hidden">
-            <summary class="flex justify-between items-center cursor-pointer p-4 sm:p-6 md:p-8 list-none font-bold text-lg sm:text-xl md:text-2xl text-gray-800 bg-white hover:bg-rose-50/50 transition-colors">
+        <details class="group bg-white rounded-2xl sm:rounded-3xl shadow-xl shadow-blue-900/10 border border-blue-50 overflow-hidden">
+            <summary class="flex justify-between items-center cursor-pointer p-4 sm:p-6 md:p-8 list-none font-bold text-lg sm:text-xl md:text-2xl text-gray-800 bg-white hover:bg-blue-50/50 transition-colors">
                 <div class="flex items-center gap-3 sm:gap-5">
-                    <div class="w-12 h-12 sm:w-14 sm:h-14 bg-gradient-to-br from-rose-100 to-pink-50 text-rose-700 rounded-xl sm:rounded-2xl flex items-center justify-center shadow-inner border border-rose-200/50 shrink-0">
-                        <svg class="w-6 h-6 sm:w-7 sm:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path></svg>
+                    <div class="w-12 h-12 sm:w-14 sm:h-14 bg-gradient-to-br from-blue-100 to-indigo-50 text-blue-700 rounded-xl sm:rounded-2xl flex items-center justify-center shadow-inner border border-blue-200/50 shrink-0">
+                        <svg class="w-6 h-6 sm:w-7 sm:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     </div>
-                    <span class="flex flex-col sm:flex-row sm:items-center break-keep">마음 열기 <span class="text-rose-600 font-bold sm:ml-2 text-sm sm:text-lg mt-0.5 sm:mt-0">(나의 사랑 나의 어여쁜 자야)</span></span>
+                    <span class="flex flex-col sm:flex-row sm:items-center break-keep">마음 열기 <span class="text-blue-600 font-bold sm:ml-2 text-sm sm:text-lg mt-0.5 sm:mt-0">(예수 사랑하심은)</span></span>
                 </div>
                 <div class="flex items-center gap-2 sm:gap-3 shrink-0">
                     <span class="text-xs sm:text-sm text-gray-400 font-normal hidden md:block">클릭하여 보기</span>
-                    <span class="transition-transform duration-300 group-open:-rotate-180 text-rose-500 bg-rose-50 rounded-full p-2 sm:p-2.5">
+                    <span class="transition-transform duration-300 group-open:-rotate-180 text-blue-500 bg-blue-50 rounded-full p-2 sm:p-2.5">
                         <svg fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" class="sm:w-6 sm:h-6"><path d="M6 9l6 6 6-6"></path></svg>
                     </span>
                 </div>
             </summary>
             
-            <div class="p-4 sm:p-6 md:p-10 pt-4 bg-white border-t border-rose-50 text-center">
+            <div class="p-4 sm:p-6 md:p-10 pt-4 bg-white border-t border-blue-50 text-center">
                 <h3 class="text-lg sm:text-xl md:text-2xl font-bold text-gray-800 mb-4 sm:mb-6 flex items-center justify-center gap-2 font-serif-kr">
-                    <span class="text-rose-600">♬</span> 나의 사랑 나의 어여쁜 자야
+                    <span class="text-blue-600">♬</span> 예수 사랑하심은
                 </h3>
                 <div class="w-full rounded-xl sm:rounded-2xl flex flex-col items-center justify-center mb-6 sm:mb-8 overflow-hidden relative border border-gray-100 shadow-sm bg-slate-50">
-                    <img src="2026-6-14 .jpg" alt="나의 사랑 나의 어여쁜 자야 악보" class="w-full h-auto max-w-2xl mx-auto object-contain bg-white">
+                    <img src="2026-6.jpg" alt="예수 사랑하심은 악보" class="w-full h-auto max-w-2xl mx-auto object-contain bg-white">
                 </div>
-                <div class="text-center text-gray-700 leading-relaxed font-medium bg-rose-50/60 p-5 sm:p-8 rounded-xl sm:rounded-2xl border border-rose-100/60 shadow-inner text-sm sm:text-base break-keep">
-                    <p class="mb-3 sm:mb-4">나의 사랑하는 자의 목소리 듣기 원하네<br class="hidden sm:block"> 나의 사랑 나의 어여쁜 자야 바위 틈 은밀한 곳에서</p>
-                    <p class="mb-3 sm:mb-4">듣기 원하네 부드러운 주님의 음성</p>
-                    <p class="text-rose-800 font-bold text-base sm:text-lg md:text-xl">나의 사랑 나의 사랑 나의 어여쁜 자야 일어나 함께 가자<br class="hidden sm:block"> 나의 사랑 나의 사랑 나의 어여쁜 자야 일어나 함께 가자</p>
+                <div class="text-center text-gray-700 leading-relaxed font-medium bg-blue-50/60 p-5 sm:p-8 rounded-xl sm:rounded-2xl border border-blue-100/60 shadow-inner text-sm sm:text-base break-keep">
+                    <p class="mb-3 sm:mb-4">예수 사랑하심은 성경에서 배웠네<br class="hidden sm:block"> 우리들은 약하나 예수 권세 많도다</p>
+                    <p class="text-blue-800 font-bold text-base sm:text-lg md:text-xl">날 사랑하심 날 사랑하심<br class="hidden sm:block"> 날 사랑하심 성경에 쓰였네</p>
                 </div>
             </div>
         </details>
     </section>
-
+     
     <section class="px-4 sm:px-6 max-w-4xl mx-auto relative z-10 mb-16 sm:mb-24 reveal">
         <div class="bg-white rounded-[1.5rem] sm:rounded-[2rem] shadow-xl shadow-slate-200/50 border border-slate-100 overflow-hidden p-6 sm:p-8 md:p-14">
             <div class="flex flex-col items-center text-center mb-10 sm:mb-12">
                 <span class="section-badge text-xs sm:text-sm">말씀 묵상</span>
-                <h2 class="text-2xl sm:text-3xl md:text-4xl font-black text-gray-800 break-keep font-serif-kr">예수님과의 친밀함으로</h2>
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-black text-gray-800 break-keep font-serif-kr">완벽한 보호하심 안으로</h2>
             </div>
             
             <div class="space-y-10 sm:space-y-14">
                 
-                <!-- 묵상 1: 성경의 지성소, 아가서 -->
+                <!-- 묵상 1 -->
                 <div>
-                    <h3 class="text-xl sm:text-2xl font-bold text-rose-900 border-b-2 border-rose-200 pb-3 mb-5 inline-block break-keep">1. 성경의 지성소, 아가서</h3>
+                    <h3 class="text-xl sm:text-2xl font-bold text-blue-900 border-b-2 border-blue-200 pb-3 mb-5 inline-block break-keep">1. 실패를 대하는 태도: 회피인가 직면인가</h3>
                     <p class="text-gray-700 leading-relaxed break-keep font-medium mb-6 text-sm sm:text-base md:text-lg">
-                        아가서에는 하나님의 이름이 직접 등장하지 않습니다. 겉보기엔 남녀의 연애시 같지만, 유대인들은 이 책을 <strong>'성경의 지성소'</strong>라 부르며 유월절마다 낭독했습니다. 왜냐하면 이 남녀의 사랑 너머에, <span class="bg-rose-100 text-rose-800 px-1 rounded">언약 백성을 향한 하나님의 깊고 열정적인 사랑</span>이 담겨 있기 때문입니다. 성경은 의무를 가르치는 책이 아니라, 우리를 신부로 부르시는 하나님의 '사랑 이야기'입니다.
-                    </p>
-                    
-                    <div class="quote-box">
-                        <p class="text-gray-700 leading-relaxed break-keep text-base sm:text-lg md:text-xl font-medium relative z-10 font-serif-kr">
-                            "내게 입맞추기를 원하니 네 사랑이 포도주보다 나음이로구나"<br>
-                            <span class="text-sm sm:text-base text-gray-500 mt-2 block not-italic">- 아가 1:2</span>
-                        </p>
-                    </div>
-                </div>
-
-                <!-- 묵상 2: 두 가지 안식 -->
-                <div>
-                    <h3 class="text-xl sm:text-2xl font-bold text-rose-900 border-b-2 border-rose-200 pb-3 mb-5 inline-block break-keep">2. 성도가 누려야 할 '두 가지 안식'</h3>
-                    <p class="text-gray-700 leading-relaxed break-keep font-medium mb-6 text-sm sm:text-base md:text-lg">
-                        성도에게는 두 가지 안식이 있습니다. 안타깝게도 많은 그리스도인들이 첫 번째 안식에만 머물러, 반복되는 죄의 굴레에서 벗어나지 못합니다.
+                        힘든 일을 만나면 우리는 흔히 피하고 싶어집니다. 그러나 부활하신 예수님은 실패와 아픔이 있는 예루살렘 성에 <strong>"머물라"</strong>고 하셨습니다. 
                     </p>
                     
                     <div class="grid md:grid-cols-2 gap-5 mt-6">
                         <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 relative overflow-hidden group hover:border-slate-300 transition-colors">
-                            <div class="absolute -right-4 -top-4 w-16 h-16 bg-slate-200 rounded-full opacity-50 group-hover:scale-150 transition-transform duration-500"></div>
-                            <h4 class="font-bold text-slate-800 text-lg mb-2 relative z-10">① 죄 사함의 안식</h4>
+                            <h4 class="font-bold text-slate-800 text-lg mb-2 relative z-10">가룟 유다의 회피</h4>
                             <p class="text-slate-600 text-sm sm:text-base break-keep relative z-10">
-                                십자가 은혜로 용서받을 때 누리는 평안입니다. 하지만 육신이 연약하여 이 안식에만 머물면 다시 유혹에 넘어져 <strong>[죄 ➔ 용서 ➔ 다시 죄]</strong>의 사이클을 반복하게 됩니다.
+                                자신의 실패와 죄책감을 주님께 가지고 나아가지 못하고 회피했습니다. 결국 절망 가운데 홀로 남겨졌습니다.
                             </p>
                         </div>
-                        <div class="bg-rose-50 p-6 rounded-2xl border border-rose-200 relative overflow-hidden group hover:border-rose-300 transition-colors shadow-sm">
-                            <div class="absolute -right-4 -top-4 w-16 h-16 bg-rose-200 rounded-full opacity-50 group-hover:scale-150 transition-transform duration-500"></div>
-                            <h4 class="font-bold text-rose-800 text-lg mb-2 relative z-10">② 친밀감을 통한 안식</h4>
-                            <p class="text-rose-700 text-sm sm:text-base break-keep relative z-10">
-                                죄 사함을 넘어 하나님과 깊은 사랑의 관계(지성소)로 들어가는 것입니다. 내 영혼이 <strong>주님의 사랑으로 가득 채워질 때</strong>, 비로소 세상의 헛된 유혹을 이길 수 있습니다.
+                        <div class="bg-blue-50 p-6 rounded-2xl border border-blue-200 relative overflow-hidden group hover:border-blue-300 transition-colors shadow-sm">
+                            <h4 class="font-bold text-blue-800 text-lg mb-2 relative z-10">베드로의 직면</h4>
+                            <p class="text-blue-700 text-sm sm:text-base break-keep relative z-10">
+                                예수님을 세 번이나 부인했던 장소에서 도망치지 않고, 밖으로 나가 심히 통곡하며 자신의 연약함을 주님 앞에 직면했습니다. 이 통곡의 자리에서 그는 위대한 사도로 성장했습니다.
                             </p>
                         </div>
                     </div>
                 </div>
-
-                <!-- 묵상 3: 검고 그리고 아름답다 -->
+     
+                <!-- 묵상 2 -->
                 <div>
-                    <h3 class="text-xl sm:text-2xl font-bold text-rose-900 border-b-2 border-rose-200 pb-3 mb-5 inline-block break-keep">3. 나는 검고, 그리고 아름답다</h3>
+                    <h3 class="text-xl sm:text-2xl font-bold text-blue-900 border-b-2 border-blue-200 pb-3 mb-5 inline-block break-keep">2. 영적 침상에서 일어나라</h3>
+                    <p class="text-gray-700 leading-relaxed break-keep font-medium mb-6 text-sm sm:text-base md:text-lg">
+                        아가서의 신부는 기나긴 영적 어둠('밤') 속에서 주님을 잃어버렸습니다. 그녀는 <strong>'침상'</strong>에서 주님을 찾습니다. 침상은 나 자신(피곤함, 상처 등)에게만 집중하는 곳이기에 영적 감각을 무뎌지게 만듭니다. 신앙의 회복은 <strong>"이에 내가 일어나서"</strong>(아가 3:2) 움직일 때 시작됩니다.
+                    </p>
                     
-                    <div class="w-full mb-6 rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border border-slate-100 bg-slate-900">
-                        <img src="2026-6-14 p.jpg" alt="시선으로부터의 자유 - 게달의 장막과 솔로몬의 휘장" class="w-full h-auto object-contain opacity-95 hover:opacity-100 transition-opacity duration-300">
+                    <div class="quote-box">
+                        <p class="text-gray-700 leading-relaxed break-keep text-base sm:text-lg md:text-xl font-medium relative z-10 font-serif-kr">
+                            "그들을 지나치자마자 마음에 사랑하는 자를 만나서... 놓지 아니하였노라"<br>
+                            <span class="text-sm sm:text-base text-gray-500 mt-2 block not-italic">- 아가 3:4</span>
+                        </p>
+                    </div>
+
+                    <p class="text-gray-700 leading-relaxed break-keep font-medium mt-6 text-sm sm:text-base md:text-lg">
+                        침상에서 일어나 거리로 나가고, 깨어있는 신앙의 멘토('순찰하는 자')들에게 묻고 찾을 때, <span class="bg-blue-100 text-blue-800 px-1 rounded font-bold">포기하기 바로 직전('지나치자마자')</span> 우리는 마침내 응답하시고 찾아오시는 주님을 만나게 됩니다.
+                    </p>
+                </div>
+     
+                <!-- 묵상 3 -->
+                <div>
+                    <h3 class="text-xl sm:text-2xl font-bold text-blue-900 border-b-2 border-blue-200 pb-3 mb-5 inline-block break-keep">3. 가마와 60명의 용사, 완전한 보호</h3>
+                    
+                    <div class="w-full mb-6 rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border border-slate-100 bg-[#f4ece1]">
+                        <img src="2026-6-28.png" alt="육십 명의 호위와 솔로몬의 가마" class="w-full h-auto object-contain opacity-95 hover:opacity-100 transition-opacity duration-300">
                     </div>
                     
                     <div>
                         <p class="text-gray-700 leading-relaxed break-keep font-medium text-sm sm:text-base md:text-lg">
-                            노동으로 피부가 검게 탄 술람미 여인은 자신을 향해 <strong>"내가 비록 검으나 아름답다(검고 그리고 아름답다)"</strong>고 당당히 선언합니다(아가 1:5). <br><br>
-                            "검다"는 것은 그녀의 연약함, 세상의 기준에 미치지 못하는 모습입니다. 그러나 그녀는 타인의 시선에 갇혀 위축되지 않습니다. 왜냐하면 <strong class="text-rose-700 bg-rose-50 px-1 rounded">왕이신 주님께서 나를 '솔로몬의 휘장'처럼 가장 가치 있고 아름답게 여기심</strong>을 알기 때문입니다. 주님의 사랑 안에 거할 때, 우리는 세상의 평가로부터 완전한 자유를 얻습니다.
+                            포기하지 않고 주님을 찾은 신부의 눈앞에 드디어 <strong>'솔로몬의 가마'</strong>가 보입니다(아가 3:7). 이 가마 주변에는 전쟁에 익숙한 육십 명의 용사들이 빈틈없이 둘러싸 호위하고 있습니다. 밤의 두려움 속에서도 신부를 안전하게 데려가겠다는 왕의 강력한 의지입니다.<br><br>
+                            우리가 주님을 만나면 내 인생의 밤(문제)이 즉시 사라지는 것은 아닐 수 있습니다. 하지만 <strong class="text-blue-700 bg-blue-50 px-1 rounded">어두운 밤 가운데서도 나를 완벽하게 보호하시는 주님의 평안</strong> 안에서 문제 속을 당당히 걸어갈 수 있게 됩니다.
                         </p>
                     </div>
                 </div>
@@ -246,67 +237,67 @@
             </div>
         </div>
     </section>
-
+     
     <section class="py-16 sm:py-24 bg-white border-y border-slate-100">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 reveal">
             <div class="text-center mb-10 sm:mb-14">
                 <span class="section-badge text-xs sm:text-sm shadow-md">소그룹 나눔</span>
                 <h3 class="text-2xl sm:text-3xl md:text-4xl font-black text-gray-800 mt-2 break-keep font-serif-kr">나눔 및 적용 질문</h3>
-                <p class="text-gray-500 mt-4 break-keep max-w-xl mx-auto font-medium text-sm sm:text-base px-2">왕의 초청장이 여러분 앞에 있습니다. 마음을 열고 진솔하게 은혜를 나누어 봅시다.</p>
+                <p class="text-gray-500 mt-4 break-keep max-w-xl mx-auto font-medium text-sm sm:text-base px-2">나를 위해 예비된 은혜의 가마에 올라타, 서로의 삶을 진솔하게 나누어 봅시다.</p>
             </div>
             
             <div class="space-y-6 sm:space-y-8">
-                <!-- 질문 1 (기존 Q2) -->
-                <div class="bg-white p-6 sm:p-8 md:p-10 rounded-[1.5rem] sm:rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-rose-300 hover:shadow-xl transition-all duration-300 relative overflow-hidden group">
-                    <div class="absolute top-0 left-0 w-1.5 sm:w-2 h-full bg-rose-400"></div>
+                <!-- 질문 1 -->
+                <div class="bg-white p-6 sm:p-8 md:p-10 rounded-[1.5rem] sm:rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-blue-300 hover:shadow-xl transition-all duration-300 relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-1.5 sm:w-2 h-full bg-blue-400"></div>
                     <div class="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
-                        <div class="flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14 bg-rose-50 text-rose-700 rounded-xl sm:rounded-2xl flex items-center justify-center font-black text-xl sm:text-2xl border border-rose-100 shadow-inner">Q1</div>
+                        <div class="flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14 bg-blue-50 text-blue-700 rounded-xl sm:rounded-2xl flex items-center justify-center font-black text-xl sm:text-2xl border border-blue-100 shadow-inner">Q1</div>
                         <div>
-                            <h4 class="font-bold text-gray-900 mb-3 text-lg sm:text-xl break-keep">주님의 사랑으로 가득 채우는 안식</h4>
+                            <h4 class="font-bold text-gray-900 mb-3 text-lg sm:text-xl break-keep">회피를 멈추고 주님께 나아가기</h4>
                             <p class="text-gray-700 leading-relaxed break-keep text-sm sm:text-base md:text-lg mb-4">
-                                내가 느꼈던 예수님의 사랑을 나누어 봅시다.
+                                성도님, 때로는 힘들고 불안한 마음을 피하기 위해 바쁘게 움직이거나 다른 즐거움 뒤로 숨어본 적이 있으신가요?
                             </p>
                             <div class="bg-slate-50 p-4 sm:p-5 rounded-xl border border-slate-200">
                                 <p class="text-slate-700 text-sm sm:text-base break-keep font-medium">
-                                    👉 우리는 '죄 사함의 안식'을 넘어, 내 영혼을 주님으로 가득 채우는 <strong>'친밀감을 통한 안식'</strong>으로 나아갈 때 참된 만족을 얻게 됩니다. 매일의 삶 속에서 주님의 풍성한 사랑으로 내 마음을 가득 채우기 위해 어떤 은혜의 자리를 사모하고 싶은지 나누어 봅시다.
+                                    👉 우리는 아픔과 실패를 마주하기 두려워 회피를 선택하곤 하지만, 잠시 괜찮아지는 것 같을 뿐 회피는 마음을 무감각하게 만들며 문제를 해결해주지 않습니다. 예수님은 우리의 아픔과 연약함이 있는 그 자리에 머물며, 베드로처럼 눈물로 주님께 나아오라고 초대하십니다. 나의 실패나 실수가 나를 망치는 것이 아니라 주님께 나아가지 않고 도망치는 것이 나를 망친다는 사실을 기억하며, 내 연약함을 있는 그대로 주님께 가지고 나아가보는 것은 어떨까요? 그 순간 우리 안에 새로운 성장의 동력이 살아날 것입니다.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 
-                <!-- 질문 2 (기존 Q3) -->
-                <div class="bg-white p-6 sm:p-8 md:p-10 rounded-[1.5rem] sm:rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-pink-400 hover:shadow-xl transition-all duration-300 relative overflow-hidden group">
-                    <div class="absolute top-0 left-0 w-1.5 sm:w-2 h-full bg-pink-400"></div>
+                <!-- 질문 2 -->
+                <div class="bg-white p-6 sm:p-8 md:p-10 rounded-[1.5rem] sm:rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-indigo-400 hover:shadow-xl transition-all duration-300 relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-1.5 sm:w-2 h-full bg-indigo-400"></div>
                     <div class="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
-                        <div class="flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14 bg-pink-50 text-pink-700 rounded-xl sm:rounded-2xl flex items-center justify-center font-black text-xl sm:text-2xl border border-pink-100 shadow-inner">Q2</div>
+                        <div class="flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14 bg-indigo-50 text-indigo-700 rounded-xl sm:rounded-2xl flex items-center justify-center font-black text-xl sm:text-2xl border border-indigo-100 shadow-inner">Q2</div>
                         <div>
-                            <h4 class="font-bold text-gray-900 mb-3 text-lg sm:text-xl break-keep">가장 아름답게 보시는 주님의 시선</h4>
+                            <h4 class="font-bold text-gray-900 mb-3 text-lg sm:text-xl break-keep">영적인 '밤'에서 깨어나기</h4>
                             <p class="text-gray-700 leading-relaxed break-keep text-sm sm:text-base md:text-lg mb-4">
-                                "나는 검고, 그리고 아름답다!" 나의 있는 모습 그대로를 솔로몬의 휘장같이 존귀하게 여기시는 주님의 사랑을 들을 때, 내 마음은 어떤가요?
+                                예수님을 사랑하지만, 어느덧 내 감정과 피곤함에만 집중하며 영적으로 무뎌진 '밤'의 시간을 보내고 계시지는 않나요?
                             </p>
                             <div class="bg-slate-50 p-4 sm:p-5 rounded-xl border border-slate-200">
                                 <p class="text-slate-700 text-sm sm:text-base break-keep font-medium">
-                                    👉 세상의 기준이나 조건과 상관없이, 왕이신 주님은 나를 <strong>가장 아름답고 가치 있는 존재</strong>로 바라보십니다. 이 놀라운 주님의 시선 안에서 발견한 나의 눈부신 가치와 당당한 정체성을 지체들과 함께 기쁨으로 고백해 봅시다.
+                                    👉 바쁜 일상 속에서 오랫동안 주님을 찾지 않아 영적인 감각이 둔해지는 것은 누구에게나 일어날 수 있는 일입니다. 편안한 '침상'에 머물며 내 육신의 소리에만 귀 기울이던 자리에서 영적으로 깨어나려면 다소 시간이 필요할 수 있습니다. 하지만 안심하시길 바랍니다. 다시 말씀을 읽고 기도하며 하루하루 주님을 찾다 보면, 어느새 굳어 있던 마음이 부드러워지고 닫혔던 영의 귀가 열리는 것을 경험하게 될 것입니다. 무관심을 끝내고 "내가 일어나서" 주님을 능동적으로 찾아 나서는 작은 행동을 오늘 당장 시작해 보시기를 원합니다.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 
-                <!-- 질문 3 (기존 Q1) -->
-                <div class="bg-white p-6 sm:p-8 md:p-10 rounded-[1.5rem] sm:rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-purple-400 hover:shadow-xl transition-all duration-300 relative overflow-hidden group">
-                    <div class="absolute top-0 left-0 w-1.5 sm:w-2 h-full bg-purple-400"></div>
+                <!-- 질문 3 -->
+                <div class="bg-white p-6 sm:p-8 md:p-10 rounded-[1.5rem] sm:rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-sky-400 hover:shadow-xl transition-all duration-300 relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-1.5 sm:w-2 h-full bg-sky-400"></div>
                     <div class="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
-                        <div class="flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14 bg-purple-50 text-purple-700 rounded-xl sm:rounded-2xl flex items-center justify-center font-black text-xl sm:text-2xl border border-purple-100 shadow-inner">Q3</div>
+                        <div class="flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14 bg-sky-50 text-sky-700 rounded-xl sm:rounded-2xl flex items-center justify-center font-black text-xl sm:text-2xl border border-sky-100 shadow-inner">Q3</div>
                         <div>
-                            <h4 class="font-bold text-gray-900 mb-3 text-lg sm:text-xl break-keep">주님을 향한 사랑인가요?</h4>
+                            <h4 class="font-bold text-gray-900 mb-3 text-lg sm:text-xl break-keep">멈추고 싶은 순간, 한 걸음 더</h4>
                             <p class="text-gray-700 leading-relaxed break-keep text-sm sm:text-base md:text-lg mb-4">
-                                나의 예배, 기도, 헌신이 주님을 만나러 가는 연인처럼 설렘과 기대로 가득 차 있나요? 주님과 더 깊고 친밀한 사랑의 관계를 누리기 위해 오늘 나의 마음을 어떻게 활짝 열어드릴 수 있을까요?
+                                간절히 기도하고 주님을 찾았음에도, 당장 응답이 없거나 상황이 변하지 않아 답답함을 느끼며 멈춰 서 계시나요?
                             </p>
                             <div class="bg-slate-50 p-4 sm:p-5 rounded-xl border border-slate-200">
                                 <p class="text-slate-700 text-sm sm:text-base break-keep font-medium">
-                                    👉 하나님은 우리를 의무적인 관계가 아닌, 열정적인 연인과 같은 <strong>'첫사랑'</strong>의 자리로 초대하십니다. 말씀과 성령을 통한 '입맞춤(친밀함)'의 기쁨을 매일의 삶에서 어떻게 더 풍성히 누릴 수 있을지 나누어 봅시다.
+                                    👉 일상의 거리로 나아가 주님을 찾았음에도 여전히 만나지 못할 때, 우리는 종종 "왜 달라지는 게 없지?" 하며 멈추고 싶어집니다. 하지만 이스라엘 백성이 쓴 물이 나오는 마라에서 멈추었다면 엘림의 풍성한 오아시스를 보지 못했을 것입니다. 포기하고 멈추고 싶은 바로 그 순간이 가장 중요한 영적인 승부처입니다. 답답할 때는 먼저 걸어간 믿음의 동역자들에게 도움을 구하며 한 걸음만 더 나아가 보세요. 우리가 온 마음을 다해 찾을 때, 결코 우리를 고아처럼 버려두지 않으시고 마침내 찾아오시는 주님을 반드시 만나게 될 것입니다.
                                 </p>
                             </div>
                         </div>
@@ -315,65 +306,64 @@
             </div>
         </div>
     </section>
-
-    <section class="py-16 sm:py-24 bg-pattern px-4 sm:px-6 border-t border-rose-100/50 reveal">
+     
+    <section class="py-16 sm:py-24 bg-pattern px-4 sm:px-6 border-t border-blue-100/50 reveal">
         <div class="max-w-4xl mx-auto">
-            <div class="bg-gradient-to-br from-indigo-900 via-rose-900 to-rose-800 text-white rounded-[2rem] sm:rounded-[2.5rem] p-8 sm:p-10 md:p-16 text-center shadow-2xl relative overflow-hidden">
-                <div class="absolute -top-10 -right-10 text-rose-500/20 transform rotate-12">
-                    <svg class="w-48 h-48 sm:w-64 sm:h-64" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            <div class="bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-800 text-white rounded-[2rem] sm:rounded-[2.5rem] p-8 sm:p-10 md:p-16 text-center shadow-2xl relative overflow-hidden">
+                <div class="absolute -top-10 -right-10 text-blue-500/20 transform rotate-12">
+                    <svg class="w-48 h-48 sm:w-64 sm:h-64" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L1 21h22M12 6l7.53 13H4.47"/></svg>
                 </div>
                 
                 <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black mb-6 sm:mb-8 relative z-10 break-keep leading-tight drop-shadow-md font-serif-kr">
-                    "하나님이 당신을 사랑하십니다!"
+                    "주님의 보호하심 안에서 걸어가십시오"
                 </h2>
-                <p class="text-rose-50 text-base sm:text-lg md:text-xl mb-8 sm:mb-12 leading-relaxed break-keep relative z-10 font-light max-w-2xl mx-auto">
-                    우리의 인생은 주님과 함께 써 내려가는 한 편의 거룩한 로맨스입니다. 기쁨의 순간에도, 눈물의 골짜기에서도 주님은 우리를 붙드십니다. 세상의 헛된 것을 좇던 발걸음을 돌려, <strong class="text-rose-200 font-bold border-b border-rose-200 border-dashed pb-0.5">참된 안식과 친밀함이 있는 지성소</strong>로 나아갑시다.
+                <p class="text-blue-50 text-base sm:text-lg md:text-xl mb-8 sm:mb-12 leading-relaxed break-keep relative z-10 font-light max-w-2xl mx-auto">
+                    문제가 여전히 곁에 있을지라도 두려워하지 마십시오. 예수님을 만난 사람은 홀로 걷지 않습니다. 나의 연약함을 숨기지 않고 진실하게 주님께 나아갈 때, 우리는 <strong class="text-blue-200 font-bold border-b border-blue-200 border-dashed pb-0.5">안전하고 평안한 은혜의 가마</strong> 안에서 어두운 밤을 통과하게 될 것입니다.
                 </p>
-
-                <div class="inline-block bg-white text-rose-900 font-black text-base sm:text-lg md:text-xl py-3 sm:py-4 px-6 sm:px-8 md:px-12 rounded-full shadow-xl shadow-rose-950/40 relative z-10 border border-rose-100 break-keep transform hover:scale-105 transition-transform duration-300">
-                    "주님, 말씀과 성령으로 내게 입맞추어 주옵소서."
+     
+                <div class="inline-block bg-white text-blue-900 font-black text-base sm:text-lg md:text-xl py-3 sm:py-4 px-6 sm:px-8 md:px-12 rounded-full shadow-xl shadow-blue-950/40 relative z-10 border border-blue-100 break-keep transform hover:scale-105 transition-transform duration-300">
+                    "주님, 이제는 피하지 않고 온 마음으로 주님을 찾겠습니다."
                 </div>
             </div>
-
-            <!-- Prayer Items Box -->
-            <div class="mt-10 bg-white border-2 border-rose-200/60 rounded-[1.5rem] sm:rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl shadow-rose-100/50 text-center relative z-20">
+     
+            <div class="mt-10 bg-white border-2 border-blue-200/60 rounded-[1.5rem] sm:rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl shadow-blue-100/50 text-center relative z-20">
                 <div class="absolute -top-5 sm:-top-6 left-1/2 transform -translate-x-1/2 bg-white px-3 sm:px-4">
-                    <div class="bg-gradient-to-r from-rose-100 to-pink-100 text-rose-700 p-2 sm:p-3 rounded-full shadow-sm border border-rose-200/50">
-                        <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                    <div class="bg-gradient-to-r from-blue-100 to-indigo-100 text-blue-700 p-2 sm:p-3 rounded-full shadow-sm border border-blue-200/50">
+                        <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
                     </div>
                 </div>
                 <h3 class="text-xl sm:text-2xl font-black text-gray-800 mb-6 sm:mb-8 mt-2 break-keep font-serif-kr">
                     이번 주 우리의 기도
                 </h3>
                 <ul class="text-gray-700 text-left space-y-4 font-medium break-keep text-sm sm:text-base md:text-lg">
-                    <li class="bg-slate-50 p-4 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-100 flex items-start gap-3 hover:bg-rose-50/50 transition-colors">
-                        <span class="text-rose-500 mt-1">🙏</span>
-                        <div><span class="text-gray-900 font-black">개인을 위한 기도:</span> 세상의 유한한 것에 속지 않고, 하나님과의 친밀한 사랑(첫사랑)을 회복하여 참된 안식을 누리게 하소서.</div>
+                    <li class="bg-slate-50 p-4 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-100 flex items-start gap-3 hover:bg-blue-50/50 transition-colors">
+                        <span class="text-blue-500 mt-1">🙏</span>
+                        <div><span class="text-gray-900 font-black">개인을 위한 기도:</span> 실패와 상처를 세상의 방법으로 회피하지 않고 직면하게 하소서. 안일한 영적 침상에서 일어나 온 마음을 다해 주님을 찾게 하소서.</div>
                     </li>
-                    <li class="bg-slate-50 p-4 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-100 flex items-start gap-3 hover:bg-rose-50/50 transition-colors">
-                        <span class="text-rose-500 mt-1">🙏</span>
-                        <div><span class="text-gray-900 font-black">공동체를 위한 기도:</span> 세상의 잣대로 서로를 평가하지 않고, 주님의 시선으로 서로를 "아름답다" 여기며 세워주는 주사랑교회가 되게 하소서.</div>
+                    <li class="bg-slate-50 p-4 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-100 flex items-start gap-3 hover:bg-blue-50/50 transition-colors">
+                        <span class="text-blue-500 mt-1">🙏</span>
+                        <div><span class="text-gray-900 font-black">공동체를 위한 기도:</span> 서로의 연약함과 상처를 판단 없이 들어주고(호모뒤마돈), 영적인 밤을 걷는 지체들을 기도로 돕는 순찰자와 같은 주사랑교회가 되게 하소서.</div>
                     </li>
                 </ul>
             </div>
         </div>
     </section>
-
+     
     <footer class="bg-slate-900 text-slate-300 py-16 sm:py-20 px-4 sm:px-6 text-center">
         <div class="max-w-3xl mx-auto reveal">
             <h3 class="text-xl sm:text-2xl md:text-3xl font-black mb-5 sm:mb-6 text-white leading-relaxed break-keep italic font-serif-kr">
-                "예루살렘 딸들아 내가 비록 검으나 아름다우니<br class="hidden md:block"/> 게달의 장막 같을지라도 솔로몬의 휘장과도 같구나"
+                "볼지어다 솔로몬의 가마라<br class="hidden md:block"/> 이스라엘 용사 중 육십 명이 둘러쌌는데"
             </h3>
-            <p class="text-rose-400 text-xs sm:text-sm font-medium mb-10 sm:mb-12 tracking-widest uppercase opacity-80">아가 1:5</p>
-            <div class="w-12 sm:w-16 h-1 bg-gradient-to-r from-rose-500 to-pink-500 mx-auto mb-8 sm:mb-10 rounded-full"></div>
+            <p class="text-blue-400 text-xs sm:text-sm font-medium mb-10 sm:mb-12 tracking-widest uppercase opacity-80">아가 3:7</p>
+            <div class="w-12 sm:w-16 h-1 bg-gradient-to-r from-blue-500 to-indigo-500 mx-auto mb-8 sm:mb-10 rounded-full"></div>
             <p class="text-base sm:text-lg md:text-xl font-light leading-relaxed break-keep text-slate-400">
-                우리는 주님의 사랑받는 신부입니다.<br class="md:hidden"/>
-                이번 한 주도 주님과 동행하는 <strong class="text-white font-bold">사랑의 여정</strong>이 되시길 축복합니다.
+                우리는 결코 혼자가 아닙니다.<br class="md:hidden"/>
+                이번 한 주도 우리를 보호하시는 주님과 동행하는 <strong class="text-white font-bold">평안의 여정</strong>이 되시길 축복합니다.
             </p>
         </div>
         <div class="mt-16 sm:mt-20 text-slate-500 text-xs sm:text-sm font-bold tracking-widest uppercase">주사랑교회 | 소그룹 나눔지</div>
     </footer>
-
+     
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const observerOptions = {
@@ -381,7 +371,7 @@
                 rootMargin: '0px',
                 threshold: 0.15
             };
-
+     
             const observer = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
@@ -390,7 +380,7 @@
                     }
                 });
             }, observerOptions);
-
+     
             document.querySelectorAll('.reveal').forEach(element => {
                 observer.observe(element);
             });
